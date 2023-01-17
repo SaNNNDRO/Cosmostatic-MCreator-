@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "cosmostatic:blocks/placeh",
+    "particle": "cosmostatic:blocks/placeh"
+  },
+  "render_type": "solid"
+}

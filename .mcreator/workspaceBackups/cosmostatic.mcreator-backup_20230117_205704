@@ -1,0 +1,91 @@
+{
+  "mod_elements": [
+    {
+      "name": "Darkmatter",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter"
+    },
+    {
+      "name": "Darkmatterblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatterblock"
+    },
+    {
+      "name": "DarkMatterScythe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_matter_scythe"
+    },
+    {
+      "name": "Darkmatterwisp",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatterwisp"
+    },
+    {
+      "name": "Particleacceleratorgui",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particleacceleratorgui"
+    },
+    {
+      "name": "Particleaccelerator",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particleaccelerator"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.cosmostatic.darkmatterwisp": "Darkmatterwisp",
+      "item.dasplix.darkmatterwisp_spawn_egg": "Darkmatterwisp Spawn Egg",
+      "block.cosmostatic.darkmatterblock": "Dark Matter Block",
+      "item.dasplix.darkmatter": "Darkmatter",
+      "item.cosmostatic.darkmatterwisp_spawn_egg": "Darkmatterwisp Spawn Egg",
+      "item.cosmostatic.dark_matter_scythe": "Dark Matter Scythe",
+      "block.cosmostatic.particleaccelerator": "Particle Accelerator",
+      "item.dasplix.dark_matter_scythe": "Dark Matter Scythe",
+      "entity.dasplix.darkmatterwisp": "Darkmatterwisp",
+      "item.cosmostatic.darkmatter": "Darkmatter",
+      "block.dasplix.darkmatterblock": "Dark Matter Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cosmostatic",
+    "modName": "Cosmostatic",
+    "version": "1.0.0",
+    "author": "SaNDRO",
+    "websiteURL": "vk.com/edictumproject",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.cosmostatic",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

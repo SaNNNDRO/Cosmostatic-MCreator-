@@ -1,0 +1,29 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "darkmatterscythe",
+    "customModelName": "Normal",
+    "name": "Dark Matter Scythe",
+    "specialInfo": [
+      "Emptiness in everything that surrounds us..."
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.7,
+    "enchantability": 2,
+    "damageVsEntity": 12.0,
+    "usageCount": 974,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
