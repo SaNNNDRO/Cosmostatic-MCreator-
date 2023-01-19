@@ -3,11 +3,11 @@
   "_type": "block",
   "definition": {
     "texture": "transducer",
-    "textureTop": "placeh",
-    "textureLeft": "placeh",
-    "textureFront": "placeh",
-    "textureRight": "placeh",
-    "textureBack": "placeh",
+    "textureTop": "transducer",
+    "textureLeft": "transducer",
+    "textureFront": "transducer",
+    "textureRight": "transducer",
+    "textureBack": "transducer",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -18,11 +18,21 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
-    "boundingBoxes": [],
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
     "name": "Dark Matter Transducer",
     "specialInfo": [],
     "hardness": 1.0,
@@ -41,13 +51,13 @@
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
-    "canRedstoneConnect": true,
+    "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ANVIL"
+      "value": "IRON"
     },
     "tickRate": 0,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -65,7 +75,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "BLOCK",
+    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
@@ -101,8 +111,8 @@
     "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "inventoryDropWhenDestroyed": true,
-    "inventoryComparatorPower": true,
+    "inventoryDropWhenDestroyed": false,
+    "inventoryComparatorPower": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
@@ -113,6 +123,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "ParticleacceleratorNaBlokieNazhataPravaiaKnopkaMyshi"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

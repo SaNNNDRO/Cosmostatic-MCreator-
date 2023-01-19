@@ -36,6 +36,17 @@
           "x": 177,
           "y": 44
         }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #1",
+          "x": 240,
+          "y": 71
+        }
       }
     ],
     "gridSettings": {
