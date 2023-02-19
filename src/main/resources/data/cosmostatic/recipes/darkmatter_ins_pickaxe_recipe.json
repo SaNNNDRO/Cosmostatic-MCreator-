@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "cosmostatic:darkmatter"
+    },
+    "1": {
+      "item": "cosmostatic:darkmatter"
+    },
+    "2": {
+      "item": "cosmostatic:darkmatter"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cosmostatic:darkmatter_ins_pickaxe",
+    "count": 1
+  }
+}

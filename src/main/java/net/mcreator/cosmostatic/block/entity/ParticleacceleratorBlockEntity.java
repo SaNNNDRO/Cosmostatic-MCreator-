@@ -35,7 +35,7 @@ public class ParticleacceleratorBlockEntity extends RandomizableContainerBlockEn
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public ParticleacceleratorBlockEntity(BlockPos position, BlockState state) {
-		super(CosmostaticModBlockEntities.PARTICLEACCELERATOR.get(), position, state);
+		super(CosmostaticModBlockEntities.TRANSDUCER.get(), position, state);
 	}
 
 	@Override
@@ -79,7 +79,7 @@ public class ParticleacceleratorBlockEntity extends RandomizableContainerBlockEn
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("particleaccelerator");
+		return Component.literal("transducer");
 	}
 
 	@Override

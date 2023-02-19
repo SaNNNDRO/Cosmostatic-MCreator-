@@ -1,13 +1,13 @@
 {
   "entity.cosmostatic.darkmatterwisp": "Darkmatterwisp",
-  "item.dasplix.darkmatterwisp_spawn_egg": "Darkmatterwisp Spawn Egg",
+  "item.cosmostatic.darkmatter_ins_pickaxe": "Darkmatter_ins Pickaxe",
   "block.cosmostatic.darkmatterblock": "Dark Matter Block",
-  "item.dasplix.darkmatter": "Darkmatter",
+  "item.cosmostatic.darkmatter_ins_hoe": "Darkmatter_ins Hoe",
+  "item.cosmostatic.darkmatter_ins_axe": "Darkmatter_ins Axe",
+  "item.cosmostatic.darkmatter_ins_shovel": "Darkmatter_ins Shovel",
   "item.cosmostatic.darkmatterwisp_spawn_egg": "Darkmatterwisp Spawn Egg",
   "item.cosmostatic.dark_matter_scythe": "Dark Matter Scythe",
-  "block.cosmostatic.particleaccelerator": "Dark Matter Transducer",
-  "item.dasplix.dark_matter_scythe": "Dark Matter Scythe",
-  "entity.dasplix.darkmatterwisp": "Darkmatterwisp",
+  "item.cosmostatic.darkmatter_ins_sword": "Darkmatter_ins Sword",
   "item.cosmostatic.darkmatter": "Darkmatter",
-  "block.dasplix.darkmatterblock": "Dark Matter Block"
+  "block.cosmostatic.transducer": "Dark Matter Transducer"
 }

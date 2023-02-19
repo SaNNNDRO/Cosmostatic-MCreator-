@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "cosmostatic:blocks/placeh",
-    "particle": "cosmostatic:blocks/placeh"
-  },
-  "render_type": "solid"
-}

@@ -17,8 +17,8 @@ import net.mcreator.cosmostatic.CosmostaticMod;
 public class CosmostaticModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES,
 			CosmostaticMod.MODID);
-	public static final RegistryObject<BlockEntityType<?>> PARTICLEACCELERATOR = register("particleaccelerator",
-			CosmostaticModBlocks.PARTICLEACCELERATOR, ParticleacceleratorBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> TRANSDUCER = register("transducer", CosmostaticModBlocks.TRANSDUCER,
+			ParticleacceleratorBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

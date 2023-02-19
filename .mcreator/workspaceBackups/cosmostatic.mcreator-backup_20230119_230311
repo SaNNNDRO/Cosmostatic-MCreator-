@@ -1,0 +1,284 @@
+{
+  "mod_elements": [
+    {
+      "name": "Darkmatter",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter"
+    },
+    {
+      "name": "Darkmatterblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatterblock"
+    },
+    {
+      "name": "DarkMatterScythe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_matter_scythe"
+    },
+    {
+      "name": "Darkmatterwisp",
+      "type": "livingentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatterwisp"
+    },
+    {
+      "name": "Particleacceleratorgui",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particleacceleratorgui"
+    },
+    {
+      "name": "Particleaccelerator",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transducer"
+    },
+    {
+      "name": "ParticleacceleratorNaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particleaccelerator_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cosmic_stoneWood",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_wood"
+    },
+    {
+      "name": "Cosmic_stoneLog",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_log"
+    },
+    {
+      "name": "Cosmic_stonePlanks",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_planks"
+    },
+    {
+      "name": "Cosmic_stoneLeaves",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_leaves"
+    },
+    {
+      "name": "Cosmic_stoneStairs",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_stairs"
+    },
+    {
+      "name": "Cosmic_stoneSlab",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_slab"
+    },
+    {
+      "name": "Cosmic_stoneFence",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_fence"
+    },
+    {
+      "name": "Cosmic_stoneFenceGate",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_fence_gate"
+    },
+    {
+      "name": "Cosmic_stonePressurePlate",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_pressure_plate"
+    },
+    {
+      "name": "Cosmic_stoneButton",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_button"
+    },
+    {
+      "name": "Cosmic_stoneItemsTag",
+      "type": "tag",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_items_tag"
+    },
+    {
+      "name": "Cosmic_stoneWoodRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_wood_recipe"
+    },
+    {
+      "name": "Cosmic_stonePlanksRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_planks_recipe"
+    },
+    {
+      "name": "Cosmic_stoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_stairs_recipe"
+    },
+    {
+      "name": "Cosmic_stoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_slab_recipe"
+    },
+    {
+      "name": "Cosmic_stoneFenceRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_fence_recipe"
+    },
+    {
+      "name": "Cosmic_stoneFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_fence_gate_recipe"
+    },
+    {
+      "name": "Cosmic_stonePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_pressure_plate_recipe"
+    },
+    {
+      "name": "Cosmic_stoneButtonRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_button_recipe"
+    },
+    {
+      "name": "Cosmic_stoneStickRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmic_stone_stick_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.cosmostatic.cosmic_stone_wood": "Cosmic_stone Wood",
+      "block.cosmostatic.darkmatterblock": "Dark Matter Block",
+      "item.cosmostatic.dark_matter_scythe": "Dark Matter Scythe",
+      "block.cosmostatic.cosmic_stone_pressure_plate": "Cosmic_stone Pressure Plate",
+      "item.cosmostatic.darkmatter": "Darkmatter",
+      "block.cosmostatic.transducer": "Dark Matter Transducer",
+      "block.cosmostatic.cosmic_stone_log": "Cosmic_stone Log",
+      "entity.cosmostatic.darkmatterwisp": "Darkmatterwisp",
+      "block.cosmostatic.cosmic_stone_fence_gate": "Cosmic_stone Fence Gate",
+      "block.cosmostatic.cosmic_stone_planks": "Cosmic_stone Planks",
+      "block.cosmostatic.cosmic_stone_fence": "Cosmic_stone Fence",
+      "block.cosmostatic.cosmic_stone_leaves": "Cosmic_stone Leaves",
+      "block.cosmostatic.cosmic_stone_slab": "Cosmic_stone Slab",
+      "block.cosmostatic.cosmic_stone_button": "Cosmic_stone Button",
+      "item.cosmostatic.darkmatterwisp_spawn_egg": "Darkmatterwisp Spawn Egg",
+      "block.cosmostatic.cosmic_stone_stairs": "Cosmic_stone Stairs"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cosmostatic",
+    "modName": "Cosmostatic",
+    "version": "1.0.0",
+    "author": "SaNDRO",
+    "websiteURL": "vk.com/edictumproject",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.cosmostatic",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

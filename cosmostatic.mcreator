@@ -6,7 +6,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkmatter"
+      "registry_name": "darkmatter",
+      "path": "~/main"
     },
     {
       "name": "Darkmatterblock",
@@ -14,7 +15,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkmatterblock"
+      "registry_name": "darkmatterblock",
+      "path": "~/main"
     },
     {
       "name": "DarkMatterScythe",
@@ -30,7 +32,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "darkmatterwisp"
+      "registry_name": "darkmatterwisp",
+      "path": "~/mobs"
     },
     {
       "name": "Particleacceleratorgui",
@@ -38,7 +41,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "particleacceleratorgui"
+      "registry_name": "particleacceleratorgui",
+      "path": "~/accelerator"
     },
     {
       "name": "Particleaccelerator",
@@ -46,7 +50,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "particleaccelerator"
+      "registry_name": "transducer",
+      "path": "~/accelerator"
     },
     {
       "name": "ParticleacceleratorNaBlokieNazhataPravaiaKnopkaMyshi",
@@ -74,7 +79,98 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/accelerator"
+    },
+    {
+      "name": "Darkmatter_insPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_pickaxe",
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_axe",
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_sword",
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_shovel",
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_hoe",
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_pickaxe_recipe",
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_axe_recipe",
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_sword_recipe",
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_shovel_recipe",
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_hoe_recipe",
+      "path": "~/instrumenti"
     }
   ],
   "variable_elements": [],
@@ -82,21 +178,38 @@
   "language_map": {
     "en_us": {
       "entity.cosmostatic.darkmatterwisp": "Darkmatterwisp",
-      "item.dasplix.darkmatterwisp_spawn_egg": "Darkmatterwisp Spawn Egg",
+      "item.cosmostatic.darkmatter_ins_pickaxe": "Darkmatter_ins Pickaxe",
       "block.cosmostatic.darkmatterblock": "Dark Matter Block",
-      "item.dasplix.darkmatter": "Darkmatter",
+      "item.cosmostatic.darkmatter_ins_hoe": "Darkmatter_ins Hoe",
+      "item.cosmostatic.darkmatter_ins_axe": "Darkmatter_ins Axe",
+      "item.cosmostatic.darkmatter_ins_shovel": "Darkmatter_ins Shovel",
       "item.cosmostatic.darkmatterwisp_spawn_egg": "Darkmatterwisp Spawn Egg",
       "item.cosmostatic.dark_matter_scythe": "Dark Matter Scythe",
-      "block.cosmostatic.particleaccelerator": "Dark Matter Transducer",
-      "item.dasplix.dark_matter_scythe": "Dark Matter Scythe",
-      "entity.dasplix.darkmatterwisp": "Darkmatterwisp",
+      "item.cosmostatic.darkmatter_ins_sword": "Darkmatter_ins Sword",
       "item.cosmostatic.darkmatter": "Darkmatter",
-      "block.dasplix.darkmatterblock": "Dark Matter Block"
+      "block.cosmostatic.transducer": "Dark Matter Transducer"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "instrumenti",
+        "children": []
+      },
+      {
+        "name": "accelerator",
+        "children": []
+      },
+      {
+        "name": "mobs",
+        "children": []
+      },
+      {
+        "name": "main",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "cosmostatic",
@@ -112,6 +225,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Powered by MCreator",
     "modElementsPackage": "net.mcreator.cosmostatic",
     "lockBaseModFiles": false
   },

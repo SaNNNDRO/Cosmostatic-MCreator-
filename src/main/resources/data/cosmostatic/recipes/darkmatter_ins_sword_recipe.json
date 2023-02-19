@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "cosmostatic:darkmatter"
+    },
+    "1": {
+      "item": "cosmostatic:darkmatter"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cosmostatic:darkmatter_ins_sword",
+    "count": 1
+  }
+}

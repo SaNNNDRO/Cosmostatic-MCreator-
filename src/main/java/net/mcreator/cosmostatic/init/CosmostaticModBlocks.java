@@ -17,5 +17,5 @@ import net.mcreator.cosmostatic.CosmostaticMod;
 public class CosmostaticModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, CosmostaticMod.MODID);
 	public static final RegistryObject<Block> DARKMATTERBLOCK = REGISTRY.register("darkmatterblock", () -> new DarkmatterblockBlock());
-	public static final RegistryObject<Block> PARTICLEACCELERATOR = REGISTRY.register("particleaccelerator", () -> new ParticleacceleratorBlock());
+	public static final RegistryObject<Block> TRANSDUCER = REGISTRY.register("transducer", () -> new ParticleacceleratorBlock());
 }

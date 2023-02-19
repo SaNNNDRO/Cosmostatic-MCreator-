@@ -1,8 +1,8 @@
 {
   "parent": "block/template_wall_side_tall",
   "textures": {
-    "wall": "cosmostatic:blocks/placeh",
-    "particle": "cosmostatic:blocks/placeh"
+    "wall": "cosmostatic:blocks/darkmatterblock",
+    "particle": "cosmostatic:blocks/darkmatterblock"
   },
   "render_type": "solid"
 }
