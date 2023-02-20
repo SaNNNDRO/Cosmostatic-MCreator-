@@ -36,12 +36,50 @@
       "path": "~/mobs"
     },
     {
+      "name": "Particleacceleratorgui",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particleacceleratorgui",
+      "path": "~/accelerator"
+    },
+    {
       "name": "Particleaccelerator",
       "type": "block",
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "transducer",
+      "path": "~/accelerator"
+    },
+    {
+      "name": "ParticleacceleratorNaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": false,
+      "locked_code": false,
+      "registry_name": "particleaccelerator_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
       "path": "~/accelerator"
     },
     {
@@ -133,64 +171,6 @@
       "locked_code": false,
       "registry_name": "darkmatter_ins_hoe_recipe",
       "path": "~/instrumenti"
-    },
-    {
-      "name": "StabilizedShard1",
-      "type": "procedure",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stabilized_shard_1",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/accelerator/crafts_melting"
-    },
-    {
-      "name": "Particlemelt",
-      "type": "procedure",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "particlemelt",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/accelerator"
     }
   ],
   "variable_elements": [],
@@ -219,12 +199,7 @@
       },
       {
         "name": "accelerator",
-        "children": [
-          {
-            "name": "crafts_melting",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "name": "mobs",

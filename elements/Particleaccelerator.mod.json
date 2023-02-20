@@ -56,8 +56,8 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 0,
-    "tickRandomly": true,
+    "tickRate": 10,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -107,8 +107,8 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "Particleacceleratorgui",
-    "openGUIOnRightClick": true,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": false,
@@ -123,8 +123,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "ParticleacceleratorNaBlokieNazhataPravaiaKnopkaMyshi"
+    "onTickUpdate": {
+      "name": "Particlemelt"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

@@ -39,7 +39,7 @@
       "name": "Particleaccelerator",
       "type": "block",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "transducer",
       "path": "~/accelerator"
@@ -167,7 +167,7 @@
       "name": "Particlemelt",
       "type": "procedure",
       "sortid": 18,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "particlemelt",
       "metadata": {

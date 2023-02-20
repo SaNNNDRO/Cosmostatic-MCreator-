@@ -29,7 +29,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.cosmostatic.init.CosmostaticModMenus;
 import net.mcreator.cosmostatic.init.CosmostaticModItems;
 import net.mcreator.cosmostatic.init.CosmostaticModEntities;
 import net.mcreator.cosmostatic.init.CosmostaticModBlocks;
@@ -56,8 +55,6 @@ public class CosmostaticMod {
 		CosmostaticModItems.REGISTRY.register(bus);
 		CosmostaticModEntities.REGISTRY.register(bus);
 		CosmostaticModBlockEntities.REGISTRY.register(bus);
-
-		CosmostaticModMenus.REGISTRY.register(bus);
 
 	}
 
