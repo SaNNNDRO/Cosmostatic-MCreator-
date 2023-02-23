@@ -10,6 +10,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.cosmostatic.init.CosmostaticModTabs;
+
 import java.util.List;
 
 public class DarkMatterScytheItem extends SwordItem {
@@ -38,7 +40,7 @@ public class DarkMatterScytheItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3.3f, new Item.Properties().tab(null));
+		}, 3, -3.3f, new Item.Properties().tab(CosmostaticModTabs.TAB_COSMOSTATIC));
 	}
 
 	@Override

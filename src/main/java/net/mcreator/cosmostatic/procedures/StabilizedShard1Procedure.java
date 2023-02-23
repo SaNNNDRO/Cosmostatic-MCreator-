@@ -27,7 +27,7 @@ public class StabilizedShard1Procedure {
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 2)).getItem() == CosmostaticModItems.DARK_MATTER_SCYTHE.get() && new Object() {
+		}.getItemStack(world, new BlockPos(x, y, z), 2)).getItem() == CosmostaticModItems.CHARGEDSHARD.get() && new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				BlockEntity _ent = world.getBlockEntity(pos);
@@ -141,7 +141,7 @@ public class StabilizedShard1Procedure {
 					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
 					if (_ent != null) {
 						final int _slotid = 2;
-						final ItemStack _setstack = new ItemStack(CosmostaticModItems.DARK_MATTER_SCYTHE.get());
+						final ItemStack _setstack = new ItemStack(CosmostaticModItems.CHARGEDSHARD.get());
 						_setstack.setCount((int) (new Object() {
 							public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 								AtomicInteger _retval = new AtomicInteger(0);
