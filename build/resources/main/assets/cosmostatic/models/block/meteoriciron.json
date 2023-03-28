@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cosmostatic:blocks/meteorite_temp1",
+    "particle": "cosmostatic:blocks/meteorite_temp1"
+  },
+  "render_type": "solid"
+}

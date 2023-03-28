@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cosmostatic:block/moonstoneslab"
+    },
+    "type=top": {
+      "model": "cosmostatic:block/moonstoneslab_top"
+    },
+    "type=double": {
+      "model": "cosmostatic:block/moonstoneslab_full"
+    }
+  }
+}

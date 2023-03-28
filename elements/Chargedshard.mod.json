@@ -1,9 +1,9 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "shard",
+    "texture": "charged_star",
     "customModelName": "Normal",
     "name": "Charged Shard",
     "rarity": "COMMON",
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

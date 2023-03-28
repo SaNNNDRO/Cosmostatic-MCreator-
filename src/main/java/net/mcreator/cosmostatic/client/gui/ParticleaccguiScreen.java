@@ -1,4 +1,3 @@
-
 package net.mcreator.cosmostatic.client.gui;
 
 import net.minecraft.world.level.Level;
@@ -10,6 +9,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.cosmostatic.world.inventory.ParticleaccguiMenu;
+import net.mcreator.cosmostatic.procedures.TransduceronProcedure;
 
 import java.util.HashMap;
 
@@ -50,9 +50,13 @@ public class ParticleaccguiScreen extends AbstractContainerScreen<Particleaccgui
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("cosmostatic:textures/screens/strelka0.png"));
-		this.blit(ms, this.leftPos + 78, this.topPos + 34, 0, 0, 16, 16, 16, 16);
+		RenderSystem.setShaderTexture(0, new ResourceLocation("cosmostatic:textures/screens/transducer_off.png"));
+		this.blit(ms, this.leftPos + 75, this.topPos + 44, 0, 0, 16, 16, 16, 16);
 
+		if (TransduceronProcedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("cosmostatic:textures/screens/transducer_on.png"));
+			this.blit(ms, this.leftPos + 75, this.topPos + 44, 0, 0, 16, 16, 16, 16);
+		}
 		RenderSystem.disableBlend();
 	}
 
@@ -72,6 +76,7 @@ public class ParticleaccguiScreen extends AbstractContainerScreen<Particleaccgui
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
+		this.font.draw(poseStack, Component.translatable("gui.cosmostatic.particleaccgui.label_transducer"), 60, 7, -12829636);
 	}
 
 	@Override

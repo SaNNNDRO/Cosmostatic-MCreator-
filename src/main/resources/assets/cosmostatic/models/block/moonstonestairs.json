@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "cosmostatic:blocks/moonstone",
+    "top": "cosmostatic:blocks/moonstone",
+    "side": "cosmostatic:blocks/moonstone"
+  },
+  "render_type": "solid"
+}

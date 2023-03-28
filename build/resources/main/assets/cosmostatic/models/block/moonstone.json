@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cosmostatic:blocks/moonstone",
+    "particle": "cosmostatic:blocks/moonstone"
+  },
+  "render_type": "solid"
+}

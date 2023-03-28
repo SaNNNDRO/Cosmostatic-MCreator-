@@ -1,0 +1,12 @@
+{
+  "transducer_sound": {
+    "category": "neutral",
+    "subtitle": "subtitles.transducer_sound",
+    "sounds": [
+      {
+        "name": "cosmostatic:transducersound",
+        "stream": false
+      }
+    ]
+  }
+}

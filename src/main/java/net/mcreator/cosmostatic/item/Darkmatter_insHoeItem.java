@@ -6,7 +6,6 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
 
 import net.mcreator.cosmostatic.init.CosmostaticModItems;
 
@@ -36,6 +35,6 @@ public class Darkmatter_insHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(CosmostaticModItems.DARKMATTER.get()));
 			}
-		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, -3f, new Item.Properties().tab(null));
 	}
 }

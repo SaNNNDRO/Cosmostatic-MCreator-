@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "cosmostatic:transducer"
+    "cosmostatic:transducer",
+    "cosmostatic:meteoriciron",
+    "cosmostatic:moonstone"
   ]
 }

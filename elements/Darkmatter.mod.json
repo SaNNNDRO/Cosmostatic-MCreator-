@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -29,6 +29,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onEntityHitWith": {
+      "name": "Dmdrop"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

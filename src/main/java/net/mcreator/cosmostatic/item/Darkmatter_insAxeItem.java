@@ -5,7 +5,6 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.AxeItem;
 
 import net.mcreator.cosmostatic.init.CosmostaticModItems;
@@ -36,6 +35,6 @@ public class Darkmatter_insAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(CosmostaticModItems.DARKMATTER.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3f, new Item.Properties().tab(null));
 	}
 }

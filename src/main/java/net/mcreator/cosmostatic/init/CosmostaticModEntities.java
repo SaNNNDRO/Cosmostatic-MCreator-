@@ -23,8 +23,7 @@ import net.mcreator.cosmostatic.CosmostaticMod;
 public class CosmostaticModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, CosmostaticMod.MODID);
 	public static final RegistryObject<EntityType<DarkmatterwispEntity>> DARKMATTERWISP = register("darkmatterwisp",
-			EntityType.Builder.<DarkmatterwispEntity>of(DarkmatterwispEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DarkmatterwispEntity::new)
+			EntityType.Builder.<DarkmatterwispEntity>of(DarkmatterwispEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DarkmatterwispEntity::new)
 
 					.sized(1f, 1f));
 

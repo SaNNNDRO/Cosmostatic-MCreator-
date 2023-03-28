@@ -16,7 +16,7 @@ import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
@@ -42,13 +42,9 @@ import java.util.Collections;
 
 import io.netty.buffer.Unpooled;
 
-public class ParticleacceleratorBlock extends Block
-		implements
-
-			EntityBlock {
+public class ParticleacceleratorBlock extends Block implements EntityBlock {
 	public ParticleacceleratorBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).sound(SoundType.METAL).strength(1f, 10f)
-				.requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).sound(SoundType.METAL).strength(1f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -63,7 +59,7 @@ public class ParticleacceleratorBlock extends Block
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof PickaxeItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
@@ -88,7 +84,6 @@ public class ParticleacceleratorBlock extends Block
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-
 		ParticlemeltProcedure.execute(world, x, y, z);
 		world.scheduleTick(pos, this, 10);
 	}

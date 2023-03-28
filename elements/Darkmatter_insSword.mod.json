@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "tool",
   "definition": {
     "renderType": 0,
@@ -8,7 +8,7 @@
     "name": "Darkmatter_ins Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "No creative tab entry"
     },
     "toolType": "Sword",
     "harvestLevel": 6,

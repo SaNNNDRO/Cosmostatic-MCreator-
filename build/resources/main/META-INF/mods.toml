@@ -4,10 +4,10 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="cosmostatic"
-version="1.0.0"
+version="0.1"
 displayName="Cosmostatic"
 credits="Powered by MCreator"
-displayURL="https://mcreator.net"
+displayURL="https://vk.com/edictumproject"
 authors="SaNDRO"
 
 [[dependencies.cosmostatic]]
@@ -17,6 +17,12 @@ authors="SaNDRO"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.cosmostatic]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43.2.0]"
+    ordering="NONE"
+    side="BOTH"
 
 
 

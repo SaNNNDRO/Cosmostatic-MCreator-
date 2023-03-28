@@ -75,11 +75,11 @@ public class ParticleaccguiMenu extends AbstractContainerMenu implements Supplie
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 52, 17) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 52, 26) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 52, 53) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 52, 62) {
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 106, 35) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 100, 44) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;

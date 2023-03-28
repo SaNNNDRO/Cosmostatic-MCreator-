@@ -16,6 +16,5 @@ import net.mcreator.cosmostatic.CosmostaticMod;
 
 public class CosmostaticModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, CosmostaticMod.MODID);
-	public static final RegistryObject<MenuType<ParticleaccguiMenu>> PARTICLEACCGUI = REGISTRY.register("particleaccgui",
-			() -> IForgeMenuType.create(ParticleaccguiMenu::new));
+	public static final RegistryObject<MenuType<ParticleaccguiMenu>> PARTICLEACCGUI = REGISTRY.register("particleaccgui", () -> IForgeMenuType.create(ParticleaccguiMenu::new));
 }
