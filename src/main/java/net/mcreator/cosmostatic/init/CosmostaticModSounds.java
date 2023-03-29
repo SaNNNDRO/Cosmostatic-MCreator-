@@ -16,4 +16,5 @@ import net.mcreator.cosmostatic.CosmostaticMod;
 public class CosmostaticModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, CosmostaticMod.MODID);
 	public static final RegistryObject<SoundEvent> TRANSDUCER_SOUND = REGISTRY.register("transducer_sound", () -> new SoundEvent(new ResourceLocation("cosmostatic", "transducer_sound")));
+	public static final RegistryObject<SoundEvent> TRANSDUCER_SOUND_MONO = REGISTRY.register("transducer_sound_mono", () -> new SoundEvent(new ResourceLocation("cosmostatic", "transducer_sound_mono")));
 }

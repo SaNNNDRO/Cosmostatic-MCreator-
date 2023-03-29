@@ -531,34 +531,87 @@
         ]
       },
       "path": "~/moon stone"
+    },
+    {
+      "name": "Transduceron",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transduceron",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/procedures/TransduceronProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/accelerator"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "transducer_sound",
+      "files": [
+        "transducersound"
+      ],
+      "category": "neutral",
+      "subtitle": "transduc"
+    },
+    {
+      "name": "transducer_sound_mono",
+      "files": [
+        "transducer_sound_mono"
+      ],
+      "category": "neutral",
+      "subtitle": "transduc"
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.cosmostatic.darkmatterblock": "Dark Matter Block",
-      "item.cosmostatic.darkmatter_ins_hoe": "Darkmatter_ins Hoe",
-      "item.cosmostatic.darkmatter_ins_shovel": "Darkmatter_ins Shovel",
       "block.cosmostatic.moonstoneslab": "Moonstone Slab",
       "item.cosmostatic.dark_matter_scythe": "Dark Matter Scythe",
-      "item.cosmostatic.darkmatter_ins_sword": "Darkmatter_ins Sword",
+      "subtitles.transducer_sound_mono": "transduc",
       "item.cosmostatic.darkmatter": "Darkmatter",
-      "block.cosmostatic.transducer": "Dark Matter Transducer",
       "entity.cosmostatic.darkmatterwisp": "Darkmatterwisp",
       "item.cosmostatic.darkmatter_ins_pickaxe": "Darkmatter_ins Pickaxe",
-      "item.cosmostatic.chargedshard": "Charged Shard",
       "item.cosmostatic.darkmatter_ins_axe": "Darkmatter_ins Axe",
       "block.cosmostatic.meteoriciron": "Meteoric Ore",
       "block.cosmostatic.moonstonestairs": "Moonstone Stairs",
-      "itemGroup.tabcosmostatic": "Cosmostatic",
       "block.cosmostatic.moonstone": "Moonstone",
+      "item.cosmostatic.flaskempty": "Flask",
+      "item.cosmostatic.darkmatter_ins_hoe": "Darkmatter Hoe",
+      "item.cosmostatic.darkmatter_ins_shovel": "Darkmatter Shovel",
+      "subtitles.transducer_sound2": "transduc",
+      "item.cosmostatic.darkmatter_ins_sword": "Darkmatter Sword",
+      "block.cosmostatic.transducer": "Dark Matter Transducer",
+      "item.cosmostatic.chargedshard": "Charged Shard",
+      "itemGroup.tabcosmostatic": "Cosmostatic",
+      "subtitles.transducer_sound": "transduc",
       "effect.cosmostatic.collapsareffect": "collapsar",
       "item.cosmostatic.darkmatterwisp_spawn_egg": "Darkmatterwisp Spawn Egg",
       "item.cosmostatic.spacemetal": "Space Metal",
       "item.cosmostatic.flaskdarkmatter": "Flask with Dark Matter",
-      "gui.cosmostatic.particleaccgui.label_transducer": "Transducer",
-      "item.cosmostatic.flaskempty": "Flask"
+      "gui.cosmostatic.particleaccgui.label_transducer": "Transducer"
     }
   },
   "foldersRoot": {
