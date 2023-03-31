@@ -95,7 +95,7 @@ public class ParticleacceleratorBlock extends Block implements EntityBlock {
 			NetworkHooks.openScreen(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return Component.literal("Dark Matter Transducer");
+					return Component.literal("Transducer");
 				}
 
 				@Override

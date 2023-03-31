@@ -1,5 +1,6 @@
 package net.mcreator.cosmostatic.procedures;
 
+import net.minecraftforge.server.ServerLifecycleHooks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
@@ -11,6 +12,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.boss.enderdragon.EnderDragon;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.network.chat.Component;
 
 import net.mcreator.cosmostatic.init.CosmostaticModItems;
 
@@ -33,6 +36,13 @@ public class DmdropProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof EnderDragon) {
+			if (Math.random() < 0.5) {
+				if (!world.isClientSide()) {
+					MinecraftServer _mcserv = ServerLifecycleHooks.getCurrentServer();
+					if (_mcserv != null)
+						_mcserv.getPlayerList().broadcastSystemMessage(Component.literal("test_message"), false);
+				}
+			}
 			if (world instanceof Level _level && !_level.isClientSide()) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(CosmostaticModItems.DARKMATTER.get()));
 				entityToSpawn.setPickUpDelay(5);

@@ -34,7 +34,6 @@ import net.mcreator.cosmostatic.init.CosmostaticModSounds;
 import net.mcreator.cosmostatic.init.CosmostaticModMobEffects;
 import net.mcreator.cosmostatic.init.CosmostaticModMenus;
 import net.mcreator.cosmostatic.init.CosmostaticModItems;
-import net.mcreator.cosmostatic.init.CosmostaticModEntities;
 import net.mcreator.cosmostatic.init.CosmostaticModBlocks;
 import net.mcreator.cosmostatic.init.CosmostaticModBlockEntities;
 
@@ -59,7 +58,7 @@ public class CosmostaticMod {
 		CosmostaticModSounds.REGISTRY.register(bus);
 		CosmostaticModBlocks.REGISTRY.register(bus);
 		CosmostaticModItems.REGISTRY.register(bus);
-		CosmostaticModEntities.REGISTRY.register(bus);
+
 		CosmostaticModBlockEntities.REGISTRY.register(bus);
 
 		CosmostaticModMobEffects.REGISTRY.register(bus);

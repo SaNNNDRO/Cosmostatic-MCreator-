@@ -94,7 +94,7 @@ public class ParticleacceleratorBlockEntity extends RandomizableContainerBlockEn
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Dark Matter Transducer");
+		return Component.literal("Transducer");
 	}
 
 	@Override

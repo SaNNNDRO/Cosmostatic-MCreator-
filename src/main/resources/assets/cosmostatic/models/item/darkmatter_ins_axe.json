@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "cosmostatic:items/darkmatter_ins_axe"
+    "layer0": "cosmostatic:items/placeh"
   }
 }

@@ -48,22 +48,6 @@
       "path": "~/instrumenti"
     },
     {
-      "name": "Darkmatterwisp",
-      "type": "livingentity",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "darkmatterwisp",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/cosmostatic/entity/DarkmatterwispEntity.java",
-          "src/main/java/net/mcreator/cosmostatic/client/renderer/DarkmatterwispRenderer.java",
-          "src/main/resources/assets/cosmostatic/models/item/darkmatterwisp_spawn_egg.json"
-        ]
-      },
-      "path": "~/mobs"
-    },
-    {
       "name": "Particleaccelerator",
       "type": "block",
       "sortid": 5,
@@ -564,22 +548,50 @@
         ]
       },
       "path": "~/accelerator"
+    },
+    {
+      "name": "Transducerrecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transducerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cosmostatic/recipes/transducerrecipe.json"
+        ]
+      },
+      "path": "~/accelerator"
+    },
+    {
+      "name": "Dmflask",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmflask",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cosmostatic/recipes/dmflask.json"
+        ]
+      },
+      "path": "~/main"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
     {
-      "name": "transducer_sound3",
-      "files": [
-        "transducer_sound3"
-      ],
-      "category": "neutral",
-      "subtitle": "transuc"
-    },
-    {
       "name": "transducer_sound",
       "files": [
         "transducersound"
+      ],
+      "category": "neutral",
+      "subtitle": "transduc"
+    },
+    {
+      "name": "transducer_sound_mono",
+      "files": [
+        "transducer_sound_mono"
       ],
       "category": "neutral",
       "subtitle": "transduc"
@@ -590,8 +602,8 @@
       "block.cosmostatic.darkmatterblock": "Dark Matter Block",
       "block.cosmostatic.moonstoneslab": "Moonstone Slab",
       "item.cosmostatic.dark_matter_scythe": "Dark Matter Scythe",
+      "subtitles.transducer_sound_mono": "transduc",
       "item.cosmostatic.darkmatter": "Darkmatter",
-      "entity.cosmostatic.darkmatterwisp": "Darkmatterwisp",
       "item.cosmostatic.darkmatter_ins_pickaxe": "Darkmatter_ins Pickaxe",
       "item.cosmostatic.darkmatter_ins_axe": "Darkmatter_ins Axe",
       "block.cosmostatic.moonstonestairs": "Moonstone Stairs",
@@ -601,14 +613,12 @@
       "item.cosmostatic.darkmatter_ins_hoe": "Darkmatter_ins Hoe",
       "item.cosmostatic.darkmatter_ins_shovel": "Darkmatter_ins Shovel",
       "subtitles.transducer_sound2": "transduc",
-      "subtitles.transducer_sound3": "transuc",
       "item.cosmostatic.darkmatter_ins_sword": "Darkmatter_ins Sword",
-      "block.cosmostatic.transducer": "Dark Matter Transducer",
+      "block.cosmostatic.transducer": "Transducer",
       "item.cosmostatic.chargedshard": "Charged Shard",
       "itemGroup.tabcosmostatic": "Cosmostatic",
       "subtitles.transducer_sound": "transduc",
       "effect.cosmostatic.collapsareffect": "collapsar",
-      "item.cosmostatic.darkmatterwisp_spawn_egg": "Darkmatterwisp Spawn Egg",
       "item.cosmostatic.spacemetal": "Space Metal",
       "item.cosmostatic.flaskdarkmatter": "Flask with Dark Matter",
       "gui.cosmostatic.particleaccgui.label_transducer": "Transducer"

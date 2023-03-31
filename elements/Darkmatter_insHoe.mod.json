@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "darkmatter_ins_hoe",
+    "texture": "placeh",
     "customModelName": "Normal",
     "name": "Darkmatter_ins Hoe",
     "specialInfo": [],

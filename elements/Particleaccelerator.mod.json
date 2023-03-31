@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Dark Matter Transducer",
+    "name": "Transducer",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

@@ -7,7 +7,6 @@ package net.mcreator.cosmostatic.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -32,7 +31,6 @@ public class CosmostaticModItems {
 	public static final RegistryObject<Item> DARKMATTER = REGISTRY.register("darkmatter", () -> new DarkmatterItem());
 	public static final RegistryObject<Item> DARKMATTERBLOCK = block(CosmostaticModBlocks.DARKMATTERBLOCK, CosmostaticModTabs.TAB_COSMOSTATIC);
 	public static final RegistryObject<Item> DARK_MATTER_SCYTHE = REGISTRY.register("dark_matter_scythe", () -> new DarkMatterScytheItem());
-	public static final RegistryObject<Item> DARKMATTERWISP_SPAWN_EGG = REGISTRY.register("darkmatterwisp_spawn_egg", () -> new ForgeSpawnEggItem(CosmostaticModEntities.DARKMATTERWISP, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> TRANSDUCER = block(CosmostaticModBlocks.TRANSDUCER, CosmostaticModTabs.TAB_COSMOSTATIC);
 	public static final RegistryObject<Item> DARKMATTER_INS_PICKAXE = REGISTRY.register("darkmatter_ins_pickaxe", () -> new Darkmatter_insPickaxeItem());
 	public static final RegistryObject<Item> DARKMATTER_INS_AXE = REGISTRY.register("darkmatter_ins_axe", () -> new Darkmatter_insAxeItem());

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "darkmatter_ins_sword",
+    "texture": "placeh",
     "customModelName": "Normal",
     "name": "Darkmatter_ins Sword",
     "specialInfo": [],
