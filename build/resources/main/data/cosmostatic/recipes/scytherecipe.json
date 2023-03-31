@@ -1,26 +1,29 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    " 3",
-    " 5"
+    " 12",
+    "34 ",
+    "6  "
   ],
   "key": {
-    "0": {
-      "item": "cosmostatic:chargedshard"
-    },
     "1": {
       "item": "cosmostatic:chargedshard"
     },
+    "2": {
+      "item": "cosmostatic:chargedshard"
+    },
     "3": {
+      "item": "cosmostatic:chargedshard"
+    },
+    "4": {
       "item": "minecraft:stick"
     },
-    "5": {
+    "6": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "cosmostatic:darkmatter_ins_hoe",
+    "item": "cosmostatic:dark_matter_scythe",
     "count": 1
   }
 }
