@@ -520,6 +520,68 @@
         ]
       },
       "path": "~/instrumenti"
+    },
+    {
+      "name": "SpaceWorkbench",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_workbench",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/blockstates/space_workbench.json",
+          "src/main/java/net/mcreator/cosmostatic/block/SpaceWorkbenchBlock.java",
+          "src/main/resources/assets/cosmostatic/models/block/space_workbench.json",
+          "src/main/java/net/mcreator/cosmostatic/block/entity/SpaceWorkbenchBlockEntity.java",
+          "src/main/resources/assets/cosmostatic/models/item/space_workbench.json"
+        ]
+      },
+      "path": "~/Space Workbench"
+    },
+    {
+      "name": "SpaceWorkbenchgui",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_workbenchgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/world/inventory/SpaceWorkbenchguiMenu.java",
+          "src/main/java/net/mcreator/cosmostatic/client/gui/SpaceWorkbenchguiScreen.java"
+        ]
+      },
+      "path": "~/Space Workbench"
+    },
+    {
+      "name": "Workbenchlogic",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workbenchlogic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/procedures/WorkbenchlogicProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Space Workbench"
+    },
+    {
+      "name": "Workbenchrecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workbenchrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cosmostatic/recipes/workbenchrecipe.json"
+        ]
+      },
+      "path": "~/Space Workbench"
     }
   ],
   "variable_elements": [],
@@ -548,10 +610,11 @@
       "item.cosmostatic.dark_matter_scythe": "Dark Matter Scythe",
       "subtitles.transducer_sound_mono": "transduc",
       "item.cosmostatic.darkmatter": "Darkmatter",
+      "block.cosmostatic.space_workbench": "Space Workbench",
       "item.cosmostatic.darkmatter_ins_pickaxe": "Darkmatter_ins Pickaxe",
       "item.cosmostatic.darkmatter_ins_axe": "Darkmatter_ins Axe",
-      "block.cosmostatic.moonstonestairs": "Moonstone Stairs",
       "block.cosmostatic.meteoriciron": "Meteoric Ore",
+      "block.cosmostatic.moonstonestairs": "Moonstone Stairs",
       "block.cosmostatic.moonstone": "Moonstone",
       "item.cosmostatic.flaskempty": "Flask",
       "item.cosmostatic.darkmatter_ins_hoe": "Darkmatter_ins Hoe",
@@ -599,13 +662,17 @@
       {
         "name": "moon stone",
         "children": []
+      },
+      {
+        "name": "Space Workbench",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "cosmostatic",
     "modName": "Cosmostatic",
-    "version": "0.1",
+    "version": "0.02a",
     "author": "SaNDRO",
     "websiteURL": "https://vk.com/edictumproject",
     "license": "All Rights Reserved",
@@ -616,7 +683,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
-    "credits": "Powered by MCreator",
+    "credits": "Thanks for download!",
     "modElementsPackage": "net.mcreator.cosmostatic",
     "lockBaseModFiles": false
   },

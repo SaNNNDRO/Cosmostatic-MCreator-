@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.cosmostatic.client.gui.SpaceWorkbenchguiScreen;
 import net.mcreator.cosmostatic.client.gui.ParticleaccguiScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -19,6 +20,7 @@ public class CosmostaticModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(CosmostaticModMenus.PARTICLEACCGUI.get(), ParticleaccguiScreen::new);
+			MenuScreens.register(CosmostaticModMenus.SPACE_WORKBENCHGUI.get(), SpaceWorkbenchguiScreen::new);
 		});
 	}
 }

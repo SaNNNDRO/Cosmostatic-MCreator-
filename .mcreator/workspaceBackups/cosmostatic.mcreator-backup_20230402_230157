@@ -35,7 +35,7 @@
     {
       "name": "DarkMatterScythe",
       "type": "tool",
-      "sortid": 3,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_scythe",
@@ -50,7 +50,7 @@
     {
       "name": "Particleaccelerator",
       "type": "block",
-      "sortid": 5,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "transducer",
@@ -68,7 +68,7 @@
     {
       "name": "Darkmatter_insPickaxe",
       "type": "tool",
-      "sortid": 7,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatter_ins_pickaxe",
@@ -83,7 +83,7 @@
     {
       "name": "Darkmatter_insAxe",
       "type": "tool",
-      "sortid": 8,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatter_ins_axe",
@@ -98,7 +98,7 @@
     {
       "name": "Darkmatter_insSword",
       "type": "tool",
-      "sortid": 9,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatter_ins_sword",
@@ -113,7 +113,7 @@
     {
       "name": "Darkmatter_insShovel",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatter_ins_shovel",
@@ -128,7 +128,7 @@
     {
       "name": "Darkmatter_insHoe",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatter_ins_hoe",
@@ -141,79 +141,9 @@
       "path": "~/instrumenti"
     },
     {
-      "name": "Darkmatter_insPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "darkmatter_ins_pickaxe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/cosmostatic/recipes/darkmatter_ins_pickaxe_recipe.json"
-        ]
-      },
-      "path": "~/instrumenti"
-    },
-    {
-      "name": "Darkmatter_insAxeRecipe",
-      "type": "recipe",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "darkmatter_ins_axe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/cosmostatic/recipes/darkmatter_ins_axe_recipe.json"
-        ]
-      },
-      "path": "~/instrumenti"
-    },
-    {
-      "name": "Darkmatter_insSwordRecipe",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "darkmatter_ins_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/cosmostatic/recipes/darkmatter_ins_sword_recipe.json"
-        ]
-      },
-      "path": "~/instrumenti"
-    },
-    {
-      "name": "Darkmatter_insShovelRecipe",
-      "type": "recipe",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "darkmatter_ins_shovel_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/cosmostatic/recipes/darkmatter_ins_shovel_recipe.json"
-        ]
-      },
-      "path": "~/instrumenti"
-    },
-    {
-      "name": "Darkmatter_insHoeRecipe",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "darkmatter_ins_hoe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/cosmostatic/recipes/darkmatter_ins_hoe_recipe.json"
-        ]
-      },
-      "path": "~/instrumenti"
-    },
-    {
       "name": "StabilizedShard1",
       "type": "procedure",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stabilized_shard_1",
@@ -245,7 +175,7 @@
     {
       "name": "Particlemelt",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "particlemelt",
@@ -277,7 +207,7 @@
     {
       "name": "Particleaccgui",
       "type": "gui",
-      "sortid": 19,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "particleaccgui",
@@ -292,7 +222,7 @@
     {
       "name": "Chargedshard",
       "type": "item",
-      "sortid": 20,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chargedshard",
@@ -307,7 +237,7 @@
     {
       "name": "Flaskempty",
       "type": "item",
-      "sortid": 22,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flaskempty",
@@ -322,7 +252,7 @@
     {
       "name": "Cosmostatic",
       "type": "tab",
-      "sortid": 23,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cosmostatic",
@@ -333,7 +263,7 @@
     {
       "name": "Flaskdarkmatter",
       "type": "item",
-      "sortid": 24,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flaskdarkmatter",
@@ -348,7 +278,7 @@
     {
       "name": "Collapsareffect",
       "type": "potioneffect",
-      "sortid": 25,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "collapsareffect",
@@ -362,7 +292,7 @@
     {
       "name": "Collapsarprocedure",
       "type": "procedure",
-      "sortid": 26,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "collapsarprocedure",
@@ -382,7 +312,7 @@
     {
       "name": "Spacemetal",
       "type": "item",
-      "sortid": 27,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spacemetal",
@@ -397,7 +327,7 @@
     {
       "name": "Meteoriciron",
       "type": "block",
-      "sortid": 28,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "meteoriciron",
@@ -414,7 +344,7 @@
     {
       "name": "Spacemetalmelt",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spacemetalmelt",
@@ -428,7 +358,7 @@
     {
       "name": "Dmdrop",
       "type": "procedure",
-      "sortid": 30,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dmdrop",
@@ -464,7 +394,7 @@
     {
       "name": "Moonstone",
       "type": "block",
-      "sortid": 31,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moonstone",
@@ -481,7 +411,7 @@
     {
       "name": "Moonstonestairs",
       "type": "block",
-      "sortid": 32,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moonstonestairs",
@@ -500,7 +430,7 @@
     {
       "name": "Moonstoneslab",
       "type": "block",
-      "sortid": 34,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moonstoneslab",
@@ -519,7 +449,7 @@
     {
       "name": "Transduceron",
       "type": "procedure",
-      "sortid": 35,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "transduceron",
@@ -552,7 +482,7 @@
     {
       "name": "Transducerrecipe",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "transducerrecipe",
@@ -566,7 +496,7 @@
     {
       "name": "Dmflask",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dmflask",
@@ -576,6 +506,53 @@
         ]
       },
       "path": "~/main"
+    },
+    {
+      "name": "Scytherecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scytherecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cosmostatic/recipes/scytherecipe.json"
+        ]
+      },
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "SpaceWorkbench",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_workbench",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/blockstates/space_workbench.json",
+          "src/main/java/net/mcreator/cosmostatic/block/SpaceWorkbenchBlock.java",
+          "src/main/resources/assets/cosmostatic/models/block/space_workbench.json",
+          "src/main/java/net/mcreator/cosmostatic/block/entity/SpaceWorkbenchBlockEntity.java",
+          "src/main/resources/assets/cosmostatic/models/item/space_workbench.json"
+        ]
+      },
+      "path": "~/Space Workbench"
+    },
+    {
+      "name": "SpaceWorkbenchgui",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_workbenchgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/world/inventory/SpaceWorkbenchguiMenu.java",
+          "src/main/java/net/mcreator/cosmostatic/client/gui/SpaceWorkbenchguiScreen.java"
+        ]
+      },
+      "path": "~/Space Workbench"
     }
   ],
   "variable_elements": [],
@@ -604,10 +581,11 @@
       "item.cosmostatic.dark_matter_scythe": "Dark Matter Scythe",
       "subtitles.transducer_sound_mono": "transduc",
       "item.cosmostatic.darkmatter": "Darkmatter",
+      "block.cosmostatic.space_workbench": "Space Workbench",
       "item.cosmostatic.darkmatter_ins_pickaxe": "Darkmatter_ins Pickaxe",
       "item.cosmostatic.darkmatter_ins_axe": "Darkmatter_ins Axe",
-      "block.cosmostatic.moonstonestairs": "Moonstone Stairs",
       "block.cosmostatic.meteoriciron": "Meteoric Ore",
+      "block.cosmostatic.moonstonestairs": "Moonstone Stairs",
       "block.cosmostatic.moonstone": "Moonstone",
       "item.cosmostatic.flaskempty": "Flask",
       "item.cosmostatic.darkmatter_ins_hoe": "Darkmatter_ins Hoe",
@@ -655,13 +633,17 @@
       {
         "name": "moon stone",
         "children": []
+      },
+      {
+        "name": "Space Workbench",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "cosmostatic",
     "modName": "Cosmostatic",
-    "version": "0.1",
+    "version": "0.02a",
     "author": "SaNDRO",
     "websiteURL": "https://vk.com/edictumproject",
     "license": "All Rights Reserved",
@@ -672,7 +654,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
-    "credits": "Powered by MCreator",
+    "credits": "Thanks for download!",
     "modElementsPackage": "net.mcreator.cosmostatic",
     "lockBaseModFiles": false
   },

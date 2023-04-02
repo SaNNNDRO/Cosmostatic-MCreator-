@@ -45,6 +45,7 @@ public class CosmostaticModItems {
 	public static final RegistryObject<Item> DARKMATTER_INS_SWORD = REGISTRY.register("darkmatter_ins_sword", () -> new Darkmatter_insSwordItem());
 	public static final RegistryObject<Item> DARKMATTER_INS_SHOVEL = REGISTRY.register("darkmatter_ins_shovel", () -> new Darkmatter_insShovelItem());
 	public static final RegistryObject<Item> DARKMATTER_INS_HOE = REGISTRY.register("darkmatter_ins_hoe", () -> new Darkmatter_insHoeItem());
+	public static final RegistryObject<Item> SPACE_WORKBENCH = block(CosmostaticModBlocks.SPACE_WORKBENCH, CosmostaticModTabs.TAB_COSMOSTATIC);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

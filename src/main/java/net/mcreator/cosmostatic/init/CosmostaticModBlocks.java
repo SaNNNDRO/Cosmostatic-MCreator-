@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.cosmostatic.block.SpaceWorkbenchBlock;
 import net.mcreator.cosmostatic.block.ParticleacceleratorBlock;
 import net.mcreator.cosmostatic.block.MoonstonestairsBlock;
 import net.mcreator.cosmostatic.block.MoonstoneslabBlock;
@@ -26,4 +27,5 @@ public class CosmostaticModBlocks {
 	public static final RegistryObject<Block> MOONSTONE = REGISTRY.register("moonstone", () -> new MoonstoneBlock());
 	public static final RegistryObject<Block> MOONSTONESTAIRS = REGISTRY.register("moonstonestairs", () -> new MoonstonestairsBlock());
 	public static final RegistryObject<Block> MOONSTONESLAB = REGISTRY.register("moonstoneslab", () -> new MoonstoneslabBlock());
+	public static final RegistryObject<Block> SPACE_WORKBENCH = REGISTRY.register("space_workbench", () -> new SpaceWorkbenchBlock());
 }

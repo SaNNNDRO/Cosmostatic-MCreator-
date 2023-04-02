@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cosmostatic:blocks/planks_oak",
+    "up": "cosmostatic:blocks/crafting_table_top",
+    "north": "cosmostatic:blocks/crafting_table_front",
+    "east": "cosmostatic:blocks/crafting_table_side",
+    "south": "cosmostatic:blocks/crafting_table_front",
+    "west": "cosmostatic:blocks/crafting_table_side",
+    "particle": "cosmostatic:blocks/planks_oak"
+  },
+  "render_type": "solid"
+}

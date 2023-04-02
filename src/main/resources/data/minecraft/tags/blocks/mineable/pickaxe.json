@@ -3,6 +3,7 @@
   "values": [
     "cosmostatic:transducer",
     "cosmostatic:meteoriciron",
-    "cosmostatic:moonstone"
+    "cosmostatic:moonstone",
+    "cosmostatic:space_workbench"
   ]
 }
