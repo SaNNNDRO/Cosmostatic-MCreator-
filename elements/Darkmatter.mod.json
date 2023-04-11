@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "darkmatter1",
     "customModelName": "Normal",
-    "name": "Darkmatter",
+    "name": "Dark Matter",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Cosmostatic"
@@ -29,9 +29,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onEntityHitWith": {
-      "name": "Dmdrop"
-    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

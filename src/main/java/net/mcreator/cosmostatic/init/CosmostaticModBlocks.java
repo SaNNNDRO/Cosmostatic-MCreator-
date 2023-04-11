@@ -15,6 +15,7 @@ import net.mcreator.cosmostatic.block.ParticleacceleratorBlock;
 import net.mcreator.cosmostatic.block.MoonstonestairsBlock;
 import net.mcreator.cosmostatic.block.MoonstoneslabBlock;
 import net.mcreator.cosmostatic.block.MoonstoneBlock;
+import net.mcreator.cosmostatic.block.MeteoriteStoneBlock;
 import net.mcreator.cosmostatic.block.MeteoricironBlock;
 import net.mcreator.cosmostatic.block.DarkmatterblockBlock;
 import net.mcreator.cosmostatic.CosmostaticMod;
@@ -28,4 +29,5 @@ public class CosmostaticModBlocks {
 	public static final RegistryObject<Block> MOONSTONESTAIRS = REGISTRY.register("moonstonestairs", () -> new MoonstonestairsBlock());
 	public static final RegistryObject<Block> MOONSTONESLAB = REGISTRY.register("moonstoneslab", () -> new MoonstoneslabBlock());
 	public static final RegistryObject<Block> SPACE_WORKBENCH = REGISTRY.register("space_workbench", () -> new SpaceWorkbenchBlock());
+	public static final RegistryObject<Block> METEORITE_STONE = REGISTRY.register("meteorite_stone", () -> new MeteoriteStoneBlock());
 }

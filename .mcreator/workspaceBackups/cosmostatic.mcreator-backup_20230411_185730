@@ -1,0 +1,673 @@
+{
+  "mod_elements": [
+    {
+      "name": "Darkmatter",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/models/item/darkmatter.json",
+          "src/main/java/net/mcreator/cosmostatic/item/DarkmatterItem.java"
+        ]
+      },
+      "path": "~/main"
+    },
+    {
+      "name": "Darkmatterblock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatterblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/blockstates/darkmatterblock.json",
+          "src/main/java/net/mcreator/cosmostatic/block/DarkmatterblockBlock.java",
+          "src/main/resources/assets/cosmostatic/models/item/darkmatterblock.json",
+          "src/main/resources/assets/cosmostatic/models/block/darkmatterblock.json"
+        ]
+      },
+      "path": "~/main"
+    },
+    {
+      "name": "DarkMatterScythe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_matter_scythe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/models/item/dark_matter_scythe.json",
+          "src/main/java/net/mcreator/cosmostatic/item/DarkMatterScytheItem.java"
+        ]
+      },
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Particleaccelerator",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transducer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/block/ParticleacceleratorBlock.java",
+          "src/main/resources/assets/cosmostatic/models/block/transducer.json",
+          "src/main/java/net/mcreator/cosmostatic/block/entity/ParticleacceleratorBlockEntity.java",
+          "src/main/resources/assets/cosmostatic/blockstates/transducer.json",
+          "src/main/resources/assets/cosmostatic/models/item/transducer.json"
+        ]
+      },
+      "path": "~/accelerator"
+    },
+    {
+      "name": "Darkmatter_insPickaxe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/models/item/darkmatter_ins_pickaxe.json",
+          "src/main/java/net/mcreator/cosmostatic/item/Darkmatter_insPickaxeItem.java"
+        ]
+      },
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insAxe",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/models/item/darkmatter_ins_axe.json",
+          "src/main/java/net/mcreator/cosmostatic/item/Darkmatter_insAxeItem.java"
+        ]
+      },
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insSword",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/item/Darkmatter_insSwordItem.java",
+          "src/main/resources/assets/cosmostatic/models/item/darkmatter_ins_sword.json"
+        ]
+      },
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insShovel",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/models/item/darkmatter_ins_shovel.json",
+          "src/main/java/net/mcreator/cosmostatic/item/Darkmatter_insShovelItem.java"
+        ]
+      },
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "Darkmatter_insHoe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ins_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/models/item/darkmatter_ins_hoe.json",
+          "src/main/java/net/mcreator/cosmostatic/item/Darkmatter_insHoeItem.java"
+        ]
+      },
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "StabilizedShard1",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stabilized_shard_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/procedures/StabilizedShard1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/accelerator/crafts_melting"
+    },
+    {
+      "name": "Particlemelt",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particlemelt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/procedures/ParticlemeltProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/accelerator"
+    },
+    {
+      "name": "Particleaccgui",
+      "type": "gui",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particleaccgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/client/gui/ParticleaccguiScreen.java",
+          "src/main/java/net/mcreator/cosmostatic/world/inventory/ParticleaccguiMenu.java"
+        ]
+      },
+      "path": "~/accelerator"
+    },
+    {
+      "name": "Chargedshard",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargedshard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/models/item/chargedshard.json",
+          "src/main/java/net/mcreator/cosmostatic/item/ChargedshardItem.java"
+        ]
+      },
+      "path": "~/main"
+    },
+    {
+      "name": "Flaskempty",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flaskempty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/item/FlaskemptyItem.java",
+          "src/main/resources/assets/cosmostatic/models/item/flaskempty.json"
+        ]
+      },
+      "path": "~/main"
+    },
+    {
+      "name": "Cosmostatic",
+      "type": "tab",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosmostatic",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Flaskdarkmatter",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flaskdarkmatter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/item/FlaskdarkmatterItem.java",
+          "src/main/resources/assets/cosmostatic/models/item/flaskdarkmatter.json"
+        ]
+      },
+      "path": "~/main"
+    },
+    {
+      "name": "Collapsareffect",
+      "type": "potioneffect",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "collapsareffect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/potion/CollapsareffectMobEffect.java"
+        ]
+      },
+      "path": "~/effects and particles"
+    },
+    {
+      "name": "Collapsarprocedure",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "collapsarprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/procedures/CollapsarprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/effects and particles"
+    },
+    {
+      "name": "Spacemetal",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spacemetal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/item/SpacemetalItem.java",
+          "src/main/resources/assets/cosmostatic/models/item/spacemetal.json"
+        ]
+      },
+      "path": "~/moon stone"
+    },
+    {
+      "name": "Meteoriciron",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteoriciron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/block/MeteoricironBlock.java",
+          "src/main/resources/assets/cosmostatic/models/block/meteoriciron.json",
+          "src/main/resources/assets/cosmostatic/blockstates/meteoriciron.json",
+          "src/main/resources/assets/cosmostatic/models/item/meteoriciron.json"
+        ]
+      },
+      "path": "~/moon stone"
+    },
+    {
+      "name": "Spacemetalmelt",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spacemetalmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cosmostatic/recipes/spacemetalmelt.json"
+        ]
+      },
+      "path": "~/moon stone"
+    },
+    {
+      "name": "Moonstone",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/models/block/moonstone.json",
+          "src/main/resources/assets/cosmostatic/blockstates/moonstone.json",
+          "src/main/resources/assets/cosmostatic/models/item/moonstone.json",
+          "src/main/java/net/mcreator/cosmostatic/block/MoonstoneBlock.java"
+        ]
+      },
+      "path": "~/moon stone"
+    },
+    {
+      "name": "Moonstonestairs",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonstonestairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/models/block/moonstonestairs.json",
+          "src/main/resources/assets/cosmostatic/models/item/moonstonestairs.json",
+          "src/main/resources/assets/cosmostatic/blockstates/moonstonestairs.json",
+          "src/main/resources/assets/cosmostatic/models/block/moonstonestairs_inner.json",
+          "src/main/java/net/mcreator/cosmostatic/block/MoonstonestairsBlock.java",
+          "src/main/resources/assets/cosmostatic/models/block/moonstonestairs_outer.json"
+        ]
+      },
+      "path": "~/moon stone"
+    },
+    {
+      "name": "Moonstoneslab",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonstoneslab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/block/MoonstoneslabBlock.java",
+          "src/main/resources/assets/cosmostatic/models/block/moonstoneslab.json",
+          "src/main/resources/assets/cosmostatic/models/item/moonstoneslab.json",
+          "src/main/resources/assets/cosmostatic/models/block/moonstoneslab_top.json",
+          "src/main/resources/assets/cosmostatic/models/block/moonstoneslab_full.json",
+          "src/main/resources/assets/cosmostatic/blockstates/moonstoneslab.json"
+        ]
+      },
+      "path": "~/moon stone"
+    },
+    {
+      "name": "Transduceron",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transduceron",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/procedures/TransduceronProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/accelerator"
+    },
+    {
+      "name": "Transducerrecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transducerrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cosmostatic/recipes/transducerrecipe.json"
+        ]
+      },
+      "path": "~/accelerator"
+    },
+    {
+      "name": "Dmflask",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmflask",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cosmostatic/recipes/dmflask.json"
+        ]
+      },
+      "path": "~/main"
+    },
+    {
+      "name": "Scytherecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scytherecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cosmostatic/recipes/scytherecipe.json"
+        ]
+      },
+      "path": "~/instrumenti"
+    },
+    {
+      "name": "SpaceWorkbench",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_workbench",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/blockstates/space_workbench.json",
+          "src/main/java/net/mcreator/cosmostatic/block/SpaceWorkbenchBlock.java",
+          "src/main/resources/assets/cosmostatic/models/block/space_workbench.json",
+          "src/main/java/net/mcreator/cosmostatic/block/entity/SpaceWorkbenchBlockEntity.java",
+          "src/main/resources/assets/cosmostatic/models/item/space_workbench.json"
+        ]
+      },
+      "path": "~/Space Workbench"
+    },
+    {
+      "name": "SpaceWorkbenchgui",
+      "type": "gui",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_workbenchgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/world/inventory/SpaceWorkbenchguiMenu.java",
+          "src/main/java/net/mcreator/cosmostatic/client/gui/SpaceWorkbenchguiScreen.java"
+        ]
+      },
+      "path": "~/Space Workbench"
+    },
+    {
+      "name": "Workbenchlogic",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workbenchlogic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cosmostatic/procedures/WorkbenchlogicProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Space Workbench"
+    },
+    {
+      "name": "Workbenchrecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workbenchrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cosmostatic/recipes/workbenchrecipe.json"
+        ]
+      },
+      "path": "~/Space Workbench"
+    },
+    {
+      "name": "MeteoriteStone",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meteorite_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cosmostatic/blockstates/meteorite_stone.json",
+          "src/main/resources/assets/cosmostatic/models/block/meteorite_stone.json",
+          "src/main/java/net/mcreator/cosmostatic/block/MeteoriteStoneBlock.java",
+          "src/main/resources/assets/cosmostatic/models/item/meteorite_stone.json"
+        ]
+      },
+      "path": "~/moon stone"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "transducer_sound",
+      "files": [
+        "transducersound"
+      ],
+      "category": "neutral",
+      "subtitle": "transduc"
+    },
+    {
+      "name": "transducer_sound_mono",
+      "files": [
+        "transducer_sound_mono"
+      ],
+      "category": "neutral",
+      "subtitle": "transduc"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.cosmostatic.darkmatterblock": "Dark Matter Block",
+      "block.cosmostatic.moonstoneslab": "Moonstone Slab",
+      "item.cosmostatic.dark_matter_scythe": "Dark Matter Scythe",
+      "subtitles.transducer_sound_mono": "transduc",
+      "item.cosmostatic.darkmatter": "Darkmatter",
+      "block.cosmostatic.space_workbench": "Space Workbench",
+      "item.cosmostatic.darkmatter_ins_pickaxe": "Darkmatter_ins Pickaxe",
+      "item.cosmostatic.darkmatter_ins_axe": "Darkmatter_ins Axe",
+      "block.cosmostatic.meteoriciron": "Meteoric Ore",
+      "block.cosmostatic.moonstonestairs": "Moonstone Stairs",
+      "block.cosmostatic.moonstone": "Moonstone",
+      "block.cosmostatic.meteorite_stone": "Meteorite Stone",
+      "item.cosmostatic.flaskempty": "Flask",
+      "item.cosmostatic.darkmatter_ins_hoe": "Darkmatter_ins Hoe",
+      "item.cosmostatic.darkmatter_ins_shovel": "Darkmatter_ins Shovel",
+      "subtitles.transducer_sound2": "transduc",
+      "item.cosmostatic.darkmatter_ins_sword": "Darkmatter_ins Sword",
+      "block.cosmostatic.transducer": "Transducer",
+      "item.cosmostatic.chargedshard": "Charged Shard",
+      "itemGroup.tabcosmostatic": "Cosmostatic",
+      "subtitles.transducer_sound": "transduc",
+      "effect.cosmostatic.collapsareffect": "collapsar",
+      "item.cosmostatic.spacemetal": "Space Metal",
+      "item.cosmostatic.flaskdarkmatter": "Flask with Dark Matter",
+      "gui.cosmostatic.particleaccgui.label_transducer": "Transducer"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "instrumenti",
+        "children": []
+      },
+      {
+        "name": "accelerator",
+        "children": [
+          {
+            "name": "crafts_melting",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "mobs",
+        "children": []
+      },
+      {
+        "name": "main",
+        "children": []
+      },
+      {
+        "name": "effects and particles",
+        "children": []
+      },
+      {
+        "name": "moon stone",
+        "children": []
+      },
+      {
+        "name": "Space Workbench",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "cosmostatic",
+    "modName": "Cosmostatic",
+    "version": "0.02a",
+    "author": "SaNDRO",
+    "websiteURL": "https://vk.com/edictumproject",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Thanks for download!",
+    "modElementsPackage": "net.mcreator.cosmostatic",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
